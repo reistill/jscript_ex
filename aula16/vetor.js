@@ -34,3 +34,17 @@ if (posi == -1) {
 } else {
     console.log(`O valor ${posi} foi encontrado na posição ${posi}`)
 }
+
+//arrayevoluído = (objeto)
+let obj = {talher:'garfo', 
+    sexo:'masculino', 
+    peso: 80, 
+    altura: '1,80m', 
+    engordar(p){
+        this.peso += p
+        console.log(`Engordou ${p}kg. Agora o peso é ${this.peso}kg`)
+}}
+
+console.log(obj)
+obj.engordar(3)
+console.log(obj)
